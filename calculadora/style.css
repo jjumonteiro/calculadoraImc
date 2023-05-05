@@ -1,0 +1,54 @@
+/* Esstrutura do corpo da página*/
+body {
+    background-color: #f2f2f2;
+    margin: 0;  /* Serve para centralizar um elemento no outro*/
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #021886; /*Cor*/
+    color: #fff; /*Cor*/
+    padding: 10px;
+  }
+  
+  /* meio do site */
+  main {
+    padding: 20px;
+  }
+  
+
+  .formulario {
+    background-color: #9cdeff6d; /*Cor*/
+    padding: 20px;
+    border-radius: 10px; /*Altera a borda da borda, ou seja, ele pode deixar a borda quadrada ou redonda*/
+  }
+  
+  /* Título do formulário */
+  .titulo .imc {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos campos de entrada */
+  .meio{
+    padding: 10px;
+    margin-bottom: 10px; /* espaçamento entre os elementos adicionados*/
+    border-radius: 5px; /*Altera a borda da borda, ou seja, ele pode deixar a borda quadrada ou redonda*/
+    border: 1px solid #ffffffd6; /* borda do botao de escrever */
+    width: 50%;  /* largura*/
+  }
+  
+  /* Estilo do botão de envio */
+  .button{
+    background-color: #21b7e8; /*Cor*/
+    color: #fff; /*Cor*/
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /*Altera a borda da borda, ou seja, ele pode deixar a borda quadrada ou redonda*/
+    font-size: 16px;
+  }
+  
+  /* Estilo do botão de envio ao passar o mouse */
+  .button:hover {
+    background-color:#6bcde6; /*Cor*/
+  }
